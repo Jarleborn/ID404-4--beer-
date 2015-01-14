@@ -6,9 +6,11 @@ function login(){
 	for (var i = 0; i < pArray.length; i++) {
 	
 		if(tryUname == pArray[i].uName){
+			document.getElementById("status2").classList.add("hidden");
 			console.log("Username Passed Test")
 			if( tryPword == pArray[i].pWord){
 				console.log("Password Passed Test")
+				document.getElementById("status2").classList.add("hidden");
 				alert("inloggad")
 			}
 			else
