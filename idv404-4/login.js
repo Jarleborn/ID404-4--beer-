@@ -11,7 +11,9 @@ function login(){
 			if( tryPword == pArray[i].pWord){
 				console.log("Password Passed Test")
 				document.getElementById("status2").classList.add("hidden");
-				alert("inloggad")
+				
+				document.getElementById("knapp3").classList.remove("hidden")
+				// prog.countPoints();
 			}
 			else
 			{
