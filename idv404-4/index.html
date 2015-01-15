@@ -25,14 +25,20 @@
       <input  type="password" id="inpass2"  placeholder="Lösenord">
       <button id="knapp" type="button">Registrera</button>
       <p id="status" class="hidden">Något eller några fält är inte ifyllda korrekt </p>
+
+<button class="hidden" class="testknapp" id="tknapp1" type="button">Testa med tillåten information</button>
+<button class="hidden" class="testknapp" id="tknapp2" type="button">Testa otillåten E-post (hj222hi@.se)</button>
+<button class="hidden" class="testknapp" id="tknapp3" type="button">Testa otillåten personnumer (hj222hi@.se)</button>
+<button   type="button" id="tknapp0">Jag vill testa</button>
   </div>
   <div id="wrapper3">
       <button class="hidden" id="knapp3" type="button">Jag vill bettygsätta ett lag!</button>
       <div class="hidden" id="judgeinlogg">
           <p > Vänligen skriv in dommar koden du fått per E-post </p>
           <p id="judegstatus" class="hidden">Du skrev fel kod</p>
-          <input id="judgenr">
+          <input type="password" id="judgenr">
           <button type="button" id="knapp5" >Skicka</button>
+         
       </div>
 
 
@@ -62,7 +68,9 @@
       <input  id="inloggn" placeholder="Användarnamn">
       <input type="password" id="inloggl" placeholder="Lösenord">
       <button id="knapp2" type="button"> Logga In </button>
-      <p id="status2" class="hidden">Du har anget fel användarnamn eller lösenord</p>
+      
+      
+      <p id="status2" class="hidden">Du har anget fel användarnamn eller lösenord </p>
 
   </div>
   <script type="text/javascript" src="judelogin.js"></script>
@@ -71,6 +79,7 @@
    <script type="text/javascript" src="login.js"></script>
   <script type="text/javascript" src="regist.js"></script>
    <script type="text/javascript" src="start.js"></script>
+   <script type="text/javascript" src="test.js"></script>
   
 </body>
 </html>
